@@ -9,3 +9,4 @@ def toDict():
         my_dict['Pages'].append(row["Pages"])
     print(my_dict)
 toDict()
+#https://www.guru99.com/python-dictionary-append.html
