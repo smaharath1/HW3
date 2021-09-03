@@ -1,0 +1,17 @@
+import time
+def fizzbuzz():
+  start_time = time.time()
+  for x in range(1, 101):
+    if(x % 3 == 0) and (x % 5 == 0):
+      print("FizzBuzz")
+    elif(x % 3 == 0):
+      print("Fizz")
+    elif(x % 5 == 0):
+      print("Buzz")
+    else:
+      print(x)
+  print(time.time() - start_time)
+
+
+fizzbuzz()
+#https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
