@@ -6,3 +6,6 @@ def toCSV():
     df.to_csv('test.csv', sep = ',', index = False)
 
 toCSV()
+#https://www.w3schools.com/python/python_dictionaries.asp
+#https://stackoverflow.com/questions/50151228/write-list-of-dict-to-csv-with-custom-delimiter
+#https://stackoverflow.com/questions/56515400/why-does-pandas-add-numbers-at-beginning-of-csv-file-after-converting
